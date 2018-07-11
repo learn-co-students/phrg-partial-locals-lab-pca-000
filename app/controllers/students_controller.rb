@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class StudentsController < ApplicationController
   def new
     @student = Student.new
@@ -8,7 +10,7 @@ class StudentsController < ApplicationController
     if @student.save
       redirect_to @student
     else
-      render 'new'
+      render "new"
     end
   end
 
