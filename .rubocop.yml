@@ -11,6 +11,8 @@ AllCops:
     - 'bin/*'
     - 'config/**/*'
     - 'test/*'
+    - 'Rakefile'
+    - 'Gemfile'
 
 
 Layout/AccessModifierIndentation:
