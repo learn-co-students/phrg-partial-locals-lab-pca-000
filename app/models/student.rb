@@ -15,4 +15,12 @@
 class Student < ActiveRecord::Base
   has_many :classroom_students
   has_many :classrooms, through: :classroom_students
+
+  def self.search(param)
+    if param.empty?
+      Student.all
+    else
+      Student.all.select{ |student| student.name.downcase.include?(param.downcase) }
+    end
+  end
 end
