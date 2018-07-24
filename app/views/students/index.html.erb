@@ -1,6 +1,5 @@
-<% Student.all.each do |student| %>
-<%= student.name %>
+<% @students.each do |student| %>
+  <%= render partial: 'student', locals: {student: student} %>
 <% end %>
 
-<%= render :partial => "student", locals: {student: Student.search('rob').first} %>
 
