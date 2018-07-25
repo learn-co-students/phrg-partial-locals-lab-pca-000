@@ -38,6 +38,7 @@ group :development, :test do
   # execution and get a debugger console
   gem "annotate"
   gem "faker"
+  gem "pry"
   gem "pry-byebug"
   gem "rubocop", "0.58.1"
   gem "rspec-rails", ">= 2.0.0.beta"
