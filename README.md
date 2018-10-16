@@ -30,4 +30,7 @@ Second, they also want to add some search functionality so that a user can searc
 
 5. Add in search functionality such that users can search for a student by name and see all matching results on the students index page. The results should be displayed by rendering a `students/_student.html.erb` partial.
 
+## Does this need an update?
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-partial-locals-lab/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-partial-locals-lab/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 <p data-visibility='hidden'>PHRG Partials with Locals</p>
